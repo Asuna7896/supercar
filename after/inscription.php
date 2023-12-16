@@ -14,7 +14,7 @@ if(isset($_POST['logout'])) {
 
 <head>
     <meta charset="utf-8">
-    <title>SUPERCAR CONTACT</title>
+    <title>SUPERCAR INSCRIPTION</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
    
 
@@ -41,7 +41,6 @@ if(isset($_POST['logout'])) {
 
 <body>
 <?php include_once('../hd/header1.php')?>
-
 <!-- Page Header Start -->
 <div class="container-fluid page-header">
     <h1 class="display-3 text-uppercase text-white mb-3">Demande d'essai</h1>
@@ -55,8 +54,8 @@ if(isset($_POST['logout'])) {
 <!--BODY START-->
 
 <center>     
-        <h1><p>Votre contact à été bien enregistré</p></h1>
-        <h1><p>Merci de votre coopération.</p></h1>
+        <h1><p>Votre compte à été bien crée</p></h1>
+        <h1><p>Vous pouvez vous connectez maintenant.</p></h1>
 </center>
 
 <?php include_once('../hd/footer.php')?>
@@ -76,7 +75,7 @@ if(isset($_POST['logout'])) {
 <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
 <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-<!-- Template Javascript -->
+<!--  Javascript -->
 <script src="js/main.js"></script>
 
 </body>

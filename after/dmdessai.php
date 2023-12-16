@@ -14,7 +14,7 @@ if(isset($_POST['logout'])) {
 
 <head>
     <meta charset="utf-8">
-    <title>SUPERCAR CONTACT</title>
+    <title>SUPERCAR DEMANDE D'ESSAI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
    
 
@@ -53,13 +53,12 @@ if(isset($_POST['logout'])) {
 </div>
 <!-- Page Header Start -->
 <!--BODY START-->
-
-<center>     
-        <h1><p>Votre contact à été bien enregistré</p></h1>
-        <h1><p>Merci de votre coopération.</p></h1>
+<center>
+        <h1><p>Nous vous remercions pour votre coopération</p></h1>
+        <h1><p>Votre demande à été bien enregistré.</p></h1>
 </center>
-
-<?php include_once('../hd/footer.php')?>
+  <!-- Footer Start -->
+  <?php include_once('../hd/footer.php')?>
 
 
 <!-- Back to Top -->
