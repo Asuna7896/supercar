@@ -1,5 +1,4 @@
 <?php
-$reference = $_POST['reference'];
 $civilite = $_POST['civilite'];
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];
@@ -19,12 +18,12 @@ $sql = "INSERT INTO dmdessai (transmission, civilite, nom, prenom, marque, v_nom
 
 
 
-if (mysqli_query($bdd, $sql)) {
+if (mysqli_query($conn, $sql)) {
     # code...
     header("Location: ../after/dmdessai.php");
 } else {
     # code...
-    echo "Erreur " . $sql . "<br>" . mysqli_error($bdd);
+    echo "Erreur " . $sql . "<br>" . mysqli_error($conn);
 }
 
 mysqli_close($bdd);
